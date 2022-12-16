@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="codefirstdemo_dbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="codefirstdemo_dbModelStoreContainer">
+    <EntitySet Name="Clients" EntityType="codefirstdemo_dbModel.Store.Clients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Villes" EntityType="codefirstdemo_dbModel.Store.Villes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_dbo_Clients_dbo_Villes_Ville_Id" Association="codefirstdemo_dbModel.Store.FK_dbo_Clients_dbo_Villes_Ville_Id">
+      <End Role="Villes" EntitySet="Villes" />
+      <End Role="Clients" EntitySet="Clients" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Prenom" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Ville_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Villes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomVille" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_dbo_Clients_dbo_Villes_Ville_Id">
+    <End Role="Villes" Type="codefirstdemo_dbModel.Store.Villes" Multiplicity="0..1" />
+    <End Role="Clients" Type="codefirstdemo_dbModel.Store.Clients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Villes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Clients">
+        <PropertyRef Name="Ville_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,30 @@
+body > div {
+    display: block;
+}
+
+.elem {
+    height: 50px;
+    margin: 5px;
+    width: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.bleue {
+    background-color: blue;
+}
+
+.verte {
+    background-color: green;
+}
+
+.violette {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}

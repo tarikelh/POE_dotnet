@@ -1,0 +1,35 @@
+﻿<Application x:Class="_08_Calculatrice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_08_Calculatrice"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Ressources/style.xaml"/>
+                <!-- On pourrait ajouter d'autres dictionnaires de ressources ici... -->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+        <!-- Code déporté dans un dictionnaire de ressources -->
+        <!-- clic droit => nouvel élément => Dictionnaire de ressources (WPF)-->
+        <!--<Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Background" Value="AliceBlue"/>
+            <Setter Property="Foreground" Value="Blue"/>
+        </Style>
+        <Style TargetType="Button"
+            BasedOn="{StaticResource {x:Type Button}}"
+            x:Key="DelButton">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="Button"
+            BasedOn="{StaticResource DelButton}"
+            x:Key="OperatorStyle">
+            <Setter Property="BorderBrush" Value="Green"/>
+            <Setter Property="Foreground" Value="Green"/>
+        </Style>-->
+        
+    </Application.Resources>
+</Application>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<_06_Entity.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div>
+    <input id="myInput" type="text" class="form-control" placeholder="Find by Description" oninput="findByDescription();"/>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prix)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="product_list">
+        <partial name="_IndexPartial" model="@Model"/>
+    </tbody>
+</table>
+
+@section Scripts
+    {
+        <script>
+                function findByDescription(id)
+            {
+                //alert();
+                $.ajax({
+                    type:"Get",
+                    url:"/Products/_GetByDescription?desc="+ $("#myInput").val(),
+                    success:function(reponse){
+                        $("#product_list").html(reponse);
+                    }
+                });
+            }
+
+            //$(document).ready(function(){
+            //       findByDescription($("#select_product").val());
+            //});
+        </script>
+}

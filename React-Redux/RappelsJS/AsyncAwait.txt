@@ -1,0 +1,24 @@
+// Utilisation de Async/Await
+
+/* 
+    On peut  utiliser les instructions "async" et "await" pour gérer nos promesses.
+    async  et  await  sont 2 nouveaux mots clés qui permettent de gérer le code asynchrone 
+    de manière beaucoup plus intuitive, 
+    en bloquant l'exécution d'un code asynchrone jusqu'à ce qu'il retourne un résultat.
+
+    On utilise l'instruction "async" pour déclarer notre fonction asynchrone
+    L’utilisation du mot clé async devant une fonction retournera toujours une promesse.
+*/
+
+/*
+    À l'intérieur du code de la fonction, l'instruction "await" va permettre d'attendre le 
+    résultat de l'appel pour ensuite récupérer le résultat
+
+    await met en pause l’exécution du code tant qu’une promesse n’est pas consommée, puis 
+    retourne ensuite le résultat de la promesse
+    
+    Cela ne consomme aucune ressource supplémentaire puisque le moteur peut effectuer d’autres 
+    tâches en attendant : 
+    exécuter d’autres scripts, gérer des événements, etc.
+
+*/

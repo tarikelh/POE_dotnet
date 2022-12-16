@@ -1,0 +1,223 @@
+{
+	"info": {
+		"_postman_id": "38765208-ecf8-4e82-b460-4e634368ffaf",
+		"name": "Api Product With Image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Produit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "produit",
+							"value": "{\"Description\":\"Ecran HP\", \"Prix\": 120, Image:\"\"}",
+							"type": "default"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Admin/Desktop/images/ecran.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:62673/api/Produits",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62673",
+					"path": [
+						"api",
+						"Produits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:62673/api/Produits/Image/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62673",
+					"path": [
+						"api",
+						"Produits",
+						"Image",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Produt By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:62673/api/Produits/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62673",
+					"path": [
+						"api",
+						"Produits",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "produit",
+							"value": "{\"Id\":1, \"Description\":\"Console\", \"Prix\": 500, Image:\"\"}",
+							"type": "default"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Admin/Desktop/images/PS4-slim-console-standing-with-dualshock4-fr.webp"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:62673/api/Produits",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62673",
+					"path": [
+						"api",
+						"Produits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:62673/api/Produits/Delete/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62673",
+					"path": [
+						"api",
+						"Produits",
+						"Delete",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User - Publique",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\":\"admin@dawan.fr\",\r\n    \"Password\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:52828/api/Users/Save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52828",
+					"path": [
+						"api",
+						"Users",
+						"Save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:52828/api/Users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52828",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login - Publique",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\":\"admin@dawan.fr\",\r\n    \"Password\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:52828/api/check-login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52828",
+					"path": [
+						"api",
+						"check-login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

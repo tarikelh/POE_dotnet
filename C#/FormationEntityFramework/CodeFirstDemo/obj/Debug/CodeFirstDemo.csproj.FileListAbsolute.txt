@@ -1,0 +1,15 @@
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe.config
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\CodeFirstDemo.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CopyComplete
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.Migrations.InitialModel.resources
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.GenerateResource.cache

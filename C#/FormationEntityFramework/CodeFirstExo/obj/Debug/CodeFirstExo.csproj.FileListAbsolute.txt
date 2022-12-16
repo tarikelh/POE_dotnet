@@ -1,0 +1,15 @@
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\CodeFirstExo.exe.config
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\CodeFirstExo.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\CodeFirstExo.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\EntityFramework.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\EntityFramework.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.csproj.CopyComplete
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.Migrations.InitialModel.resources
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\CodeFirstExo\obj\Debug\CodeFirstExo.csproj.GenerateResource.cache

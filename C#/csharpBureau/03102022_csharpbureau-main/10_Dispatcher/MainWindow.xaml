@@ -1,0 +1,27 @@
+﻿<Window x:Class="_10_Dispatcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10_Dispatcher"
+        mc:Ignorable="d"
+        Title="Dispatcher"
+        Height="450" Width="450"
+        WindowStartupLocation="CenterScreen"
+        FontSize="36"
+        Closing="MainWindow_Closing">
+    <Grid>
+        
+        <TextBox x:Name="txtMessage" Text="0"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Height="100"
+                 BorderThickness="0"/>
+        
+        <Button x:Name="myButton"
+                Content="START"
+                Margin=" 0 200 0 0"
+                Height="100" Width="300"
+                Click="btnClick"/>
+    </Grid>
+</Window>

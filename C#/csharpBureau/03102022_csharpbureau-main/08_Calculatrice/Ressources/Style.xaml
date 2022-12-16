@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style TargetType="Button">
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Background" Value="AliceBlue"/>
+        <Setter Property="Foreground" Value="Blue"/>
+    </Style>
+    <Style TargetType="Button"
+               BasedOn="{StaticResource {x:Type Button}}"
+               x:Key="DelButton">
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <Style TargetType="Button"
+               BasedOn="{StaticResource DelButton}"
+               x:Key="OperatorStyle">
+        <Setter Property="BorderBrush" Value="Green"/>
+        <Setter Property="Foreground" Value="Green"/>
+    </Style>
+    
+</ResourceDictionary>

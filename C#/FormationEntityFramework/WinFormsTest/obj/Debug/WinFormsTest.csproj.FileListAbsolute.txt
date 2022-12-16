@@ -1,0 +1,16 @@
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\WinFormsTest.exe.config
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\WinFormsTest.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\WinFormsTest.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\EntityFramework.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\EntityFramework.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.FormEmployee.resources
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.csproj.GenerateResource.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.csproj.CopyComplete
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\WinFormsTest\obj\Debug\WinFormsTest.pdb

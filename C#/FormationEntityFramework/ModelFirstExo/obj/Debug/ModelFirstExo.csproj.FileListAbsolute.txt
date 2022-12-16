@@ -1,0 +1,14 @@
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\ModelFirstExo.exe.config
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\ModelFirstExo.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\ModelFirstExo.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\obj\Debug\ModelFirstExo.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\obj\Debug\ModelFirstExo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\obj\Debug\ModelFirstExo.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\obj\Debug\ModelFirstExo.exe
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\obj\Debug\ModelFirstExo.pdb
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\EntityFramework.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\EntityFramework.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Admin Stagiaire\Documents\C#\FormationEntityFramework\ModelFirstExo\obj\Debug\ModelFirstExo.csproj.CopyComplete

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_14_Navigation</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icones\icons8-document-24.png" />
+    <None Remove="Icones\icons8-fichier-24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icones\icons8-document-24.png" />
+    <Resource Include="Icones\icons8-fichier-24.png" />
+  </ItemGroup>
+
+</Project>

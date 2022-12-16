@@ -1,0 +1,55 @@
+﻿<Window x:Class="_12_Async.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_12_Async"
+        mc:Ignorable="d"
+        Title="Progrmation asynchrone"
+        Height="450" Width="800"
+        Margin="20"
+        FontSize="18"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="1"
+                   FontSize="26"
+                   HorizontalAlignment="Center"
+                   Text="Synchrone Vs Asynchrone"/>
+        
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            
+            <Button x:Name="ExectuteSync"
+                    Content="Exécution Synchrone"
+                    Padding="20"
+                    Margin="20"
+                    Click="ExectuteSync_Click"/>
+
+            <Button x:Name="ExectuteASync"
+                    Content="Exécution Asynchrone"
+                    Padding="20"
+                    Margin="20"
+                    Click="ExectuteASync_Click"/>
+
+            <Button x:Name="ExectuteParallelASync"
+                    Content="Exécution Parallèle"
+                    Padding="20"
+                    Margin="20"
+                    Click="ExectuteParallelASync_Click"/>
+
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="3"
+                          x:Name="Results"
+                          Margin="20"/>
+    </Grid>
+</Window>

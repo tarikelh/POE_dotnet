@@ -1,0 +1,39 @@
+/*
+Par défaut, le JavaScript est un langage synchrone, bloquant et qui ne s’exécute que sur
+un seul thread. 
+
+Cela signifie que :
+Les différentes opérations vont s’exécuter les unes à la suite des autres (elles sont synchrones) ;
+Chaque nouvelle opération doit attendre que la précédente ait terminé pour démarrer 
+(l’opération précédente est « bloquante ») ;
+
+Le JavaScript ne peut exécuter qu’une instruction à la fois (il s’exécute sur un thread, 
+c’est-à-dire un « fil » ou une « tache » ou un « processus » unique).
+
+*/
+
+/*
+    Cela peut rapidement poser problème dans un contexte Web :
+    Imaginons qu’une de nos fonctions ou qu’une boucle prenne beaucoup de temps à s’exécuter. 
+    Tant que cette fonction n’a pas terminé son travail, la suite du script ne peut pas 
+    s’exécuter(elle est bloquée) et le programme dans son ensemble parait complètement arrêté
+    du point de vue de l’utilisateur.
+
+    voir exemple rappels_synchrone.js
+
+*/
+
+
+
+Conclusion : 
+
+/*
+    Cela peut rapidement poser problème dans un contexte Web :
+    Pour éviter de bloquer totalement le navigateur et le reste du script, on aimerait 
+    que ce genre d’opérations se déroule de manière asynchrone, c’est-à-dire en marge du reste
+    du code et qu’ainsi le reste du code ne soit pas bloqué.
+    Cela est aujourd’hui possible puisque les machines disposent de plusieurs cœurs, ce qui
+    leur permet d’exécuter plusieurs tâches de façon indépendante et en parallèle et que le
+    JavaScript nous fournit des outils pour créer du code asynchrone.
+
+*/
